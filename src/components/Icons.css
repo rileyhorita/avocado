@@ -1,0 +1,8 @@
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    font-size: 30px;
+    
+}
+

@@ -1,0 +1,46 @@
+.background {
+    background-color: aliceblue;
+}
+.merch-title{
+    font-size: 80px;
+    margin-left: 110px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+
+.shirts {
+    height: 180px;
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: solid;
+    border-radius: 20px;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -180px;
+    margin-right: 60px;
+   
+    
+}
+.lower {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+
+
+.card:hover{
+    transform: rotateX(180deg);
+}
+
+.icon-holder{
+    position: absolute;
+    top: 620px;
+    right: 80px;
+}

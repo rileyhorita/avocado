@@ -1,0 +1,28 @@
+.home-title {
+    font-size: 120px;
+    color: white;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 55px;
+    width: 600px;
+}
+
+.background {
+    background-image: url('./images/taylor.jpg');
+    background-repeat: no-repeat;
+    height: 967px;
+    width: 1834px;
+  }
+
+  .perform {
+    font-size: 22px;
+    color:aliceblue;
+    background-color: black;
+    margin-left: 55px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 208px;
+    height: 60px;
+    box-shadow: none;
+  }

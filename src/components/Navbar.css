@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .nav{
+    background-color: #000000;
+    color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    height: 65px;
+    }
+  
+  .site-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.77px;
+    margin-left: 10px;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+  }
+  .nav-logo{
+    font-size: 30px;
+    color: #D99BFF;
+  }
+
+  
+  .nav-title-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .nav li:hover {
+    background-color: #555;
+  }
+  
+ .merch a:hover {
+    background-color: #D99BFF;
+    border-radius: 10px;
+ }
+
+ .events a:hover {
+    background-color: #D99BFF;
+    border-radius: 10px;
+ }
+
+ 
+  
+  
