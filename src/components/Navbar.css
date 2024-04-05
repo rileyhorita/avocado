@@ -2,32 +2,51 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
   }
-  
+  .jamimg {
+    height: 100px;
+    width: 190px;
+    margin-left: 40px;
+  }
   .nav{
-    background-color: #000000;
+    background-color:#FF6B3D;
     color: rgb(254, 254, 254);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     padding: 2rem;
     height: 65px;
+    padding-top: 120px;
+    }
+    button{
+      font-size: 20px;
+      background-color: black;
+      color: white;
+     padding: 10px;
+     border-radius: 30px;
+     border-style: none;
+     width: 180px;
+    
     }
   
   .site-title{
-    font-size: 30px;
+    font-size: 0px;
     font-weight: 700;
     line-height: 34.77px;
     margin-left: 10px;
   }
-  
+  li {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
   .nav ul {
-    padding: 0;
+    padding-left: 0;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 2rem;
     font-size: 13px;
+    margin-right: 40px;
   }
   .nav-logo{
     font-size: 30px;
@@ -45,21 +64,6 @@
     text-decoration: none;
     font-size: 25px;
   }
-  
-  .nav li:hover {
-    background-color: #555;
-  }
-  
- .merch a:hover {
-    background-color: #D99BFF;
-    border-radius: 10px;
- }
 
- .events a:hover {
-    background-color: #D99BFF;
-    border-radius: 10px;
- }
-
- 
   
   
